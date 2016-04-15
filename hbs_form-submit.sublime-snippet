@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+{{ form-submit text="${1:Submit!}" }}
+	]]></content>
+	<tabTrigger>ffs</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

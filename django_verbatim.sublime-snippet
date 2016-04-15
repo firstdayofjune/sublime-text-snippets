@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% verbatim %}
+	$SELECTION
+{% endverbatim %}
+]]></content>
+	<tabTrigger>verb</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

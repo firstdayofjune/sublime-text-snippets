@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+{{ form-field label="${1:label text}" name="${2:name}" type="${3:type}" id="${4:id}" placeholder="${5:}" value="${6:}" }}
+	]]></content>
+	<tabTrigger>ffi</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
