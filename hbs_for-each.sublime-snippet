@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{#each ${1:model} as |${2:item}|}}
+	{{${2:item}}}
+{{/each}}
+]]></content>
+	<tabTrigger>#each</tabTrigger>
+</snippet>
