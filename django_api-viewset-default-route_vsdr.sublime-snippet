@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+@detail_route(methods=['post','get'])
+def ${1:slug_name}(self, request, **kwargs):
+	"""Add /${1:slug_name} slug to ${2:object_name}-objects, which is used for adding and receiving ${1:slug_name}"""
+
+	${2:object_name} = self.get_object()
+	self.queryset = ${2:object_name}.${1:slug_name}
+	self.serializer_class = ${3:Slug}Serializer
+
+	if request.method == 'POST':
+		data = {
+			${5}
+		}
+		${6}
+		return Response("${3:Slug} added as follows: {}".format(), status=status.HTTP_201_CREATED)
+
+	if request.method == 'GET':
+		serializer =  ${3:Slug}Serializer(instance=self.queryset, many=${4:True or False})
+		return Response(serializer.data)
+
+]]></content>
+	<tabTrigger>vsdr</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+'${1:key}': request.data['${1:key}'],${2}
+]]></content>
+	<tabTrigger>rup</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
