@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Object}ViewSet(AuthenticationMixin, viewsets.ModelViewSet):
+	"""API endpoint for querying ${1:Object}"""
+
+	queryset = ${1:Object}.objects.all()
+	serializer_class = ${1:Object}Serializer
+${2}
+]]></content>
+	<tabTrigger>objvs</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
