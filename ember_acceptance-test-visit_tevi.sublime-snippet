@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+test('index should link to ${1}', function(assert) {
+  visit('/');
+  click('a:contains("${2}")');
+  andThen(function() {
+    assert.equal(currentURL(), '/${3}');
+  });
+});
+
+${4}
+]]></content>
+	<tabTrigger>tevi</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
