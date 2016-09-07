@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\subsection{${1:Subsection Name}} \label{sec:${2:aaa}}
+	${3:Subsection Content}
+]]></content>
+	<tabTrigger>ssec</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Foldable Subsection</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\textit{``${1}''} \cite{${2}} 
+]]></content>
+	<tabTrigger>quol</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Inline quote</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\section{${1:Section Name}} \label{sec:${2:aaa}}
+	${3:Section Content}
+]]></content>
+	<tabTrigger>sec</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Foldable Section</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\quote\textit{``${1}''} \cite{${2}} \\\\
+
+
+]]></content>
+	<tabTrigger>quob</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Block quote</description>
+</snippet>

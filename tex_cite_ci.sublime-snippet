@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\cite{${1}} 
+]]></content>
+	<tabTrigger>ci</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Citation Reference</description>
+</snippet>
