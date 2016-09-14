@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\cite[p${1}]{${2}} 
+]]></content>
+	<tabTrigger>cip</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Citation Reference</description>
+</snippet>
