@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+%\{color:darkorange\}Move%${1}
+]]></content>
+	<tabTrigger>mv</tabTrigger>
+	<scope>text.html.textile</scope>
+</snippet>
