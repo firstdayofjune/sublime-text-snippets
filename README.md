@@ -9,21 +9,21 @@ __Windows:__
 
 Package location:
 
-`C:\Users\<Username>\AppData\Roaming\Sublime Text 3\Packages\Snippets`
+`C:\Users\%USERNAME%\AppData\Roaming\Sublime Text 3\Packages\Snippets`
 
 Git command:
 
-`git clone https://github.com/firstdayofjune/sublime-text-snippets.git C:\Users\<Username>\AppData\Roaming\Sublime Text 3\Packages\Snippets`
+`git clone https://github.com/firstdayofjune/sublime-text-snippets.git C:\Users\%USERNAME%\AppData\Roaming\Sublime Text 3\Packages\Snippets`
 
 __Mac OS X:__
 
 Package location:
 
-`/Users/<Username>/Library/Application Support/Sublime Text 3/Packages/Snippets`
+`~/Library/Application Support/Sublime Text 3/Packages/Snippets`
 
 Git command:
 
-`git clone https://github.com/firstdayofjune/sublime-text-snippets.git /Users/<Username>/Library/Application Support/Sublime Text 3/Packages/Snippets`
+`git clone https://github.com/firstdayofjune/sublime-text-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Snippets/`
 
 __No git available?__
 
